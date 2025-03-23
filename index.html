@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Practice</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>Lesson 1</li>
+            <li>Lesson 2</li>
+            <li>Lesson 3</li>
+            <li>Lesson 4</li>
+            <li>Lesson 5</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg" alt="Image from Pexels" width="500">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Mnyika</td>
+                    <td>Nairobi, City</td>
+                    <td>0700878430</td>
+                    <td>jmnyika514@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Wanjiku</td>
+                    <td>Nakuru, Town</td>
+                    <td>234-567-8901</td>
+                    <td>jane@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Wahome</td>
+                    <td>Kitale, Village</td>
+                    <td>345-678-9012</td>
+                    <td>alice@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Odongo</td>
+                    <td>Kisumu, City</td>
+                    <td>456-789-0123</td>
+                    <td>brian@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8"><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown Menu -->
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="Ke">Kenya</option>
+                <option value="Ug">Uganda</option>
+                <option value="Tz">Tanzania</option>
+                <option value="Ng">Nigeria</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Multimedia Elements -->
+    <section>
+        <h2>Multimedia Elements</h2>
+
+        <!-- Vimeo Video -->
+        <h3>John by Lil Wayne</h3>
+        <iframe
+            src="https://player.vimeo.com/video/86382440"
+            width="560"
+            height="315"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </section>
+</body>
+</html>
